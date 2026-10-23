@@ -1,0 +1,19 @@
+{
+  "name": "test-electron",
+  "version": "1.0.0",
+  "description": "A simple Electron app for testing",
+  "license": "ISC",
+  "author": "Tonmoy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^8.0.1",
+    "@electron-forge/maker-squirrel": "^8.0.1",
+    "electron": "^45.0.0"
+  }
+}
